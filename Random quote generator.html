@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Machine</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+       
+        
+        window.onload = init;
+        
+       
+    </script>
+
+    <style>
+        * {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <wrapper id="quote-box">
+        <div id="text"></div>
+        <div id="author"></div>
+        <button id="new-quote"></button>
+        <a id="tweet-quote" href="twitter.com/intent/tweet" target="_blank">Tweet quote</a>
+    </wrapper>
+    <h1>Random Quote Machine</h1>
+    <div id="quote-container">
+        <p id="quote">Click the button to get a quote!</p>
+    </div>
+    <button id="new-quote" onClick="generateQuote();">New Quote</button>
+    <script src="script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
