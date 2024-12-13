@@ -20,15 +20,16 @@
     </style>
 </head>
 <body>
-    <wrapper id="quote-box">
-        <div id="text"></div>
-        <div id="author"></div>
-        <button id="new-quote"></button>
-        <a id="tweet-quote" href="twitter.com/intent/tweet" target="_blank">Tweet quote</a>
-    </wrapper>
+   
     <h1>Random Quote Machine</h1>
     <div id="quote-container">
         <p id="quote">Click the button to get a quote!</p>
+          <wrapper id="quote-box">
+        <div id="text"></div>
+        <div id="author"></div>
+        <button id="new-quote"></button>
+        <a id="tweet-quote" href="twitter.com/intent/tweet" class="button" target="_blank">Tweet quote</a>
+    </wrapper>
     </div>
     <button id="new-quote" onClick="generateQuote();">New Quote</button>
     <script src="script.js"></script>
