@@ -4,13 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Quote Machine</title>
-  <link rel="stylesheet" href="style.css"> 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="your-other-stylesheet.css"> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/15.0.3/marked.min.js" integrity="sha512-7aRjMGJX+VgTMGWgWLpQxavdTKRc2LwCTAS4LmB7OLwGTpH84ehHQoAY/y1fUfprr2yMFC6toDLHpbGaDth9VQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script> 
-    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
     <script>
        
         
@@ -22,19 +16,23 @@
 </head>
 <body>
   
-    <h1>Random Quote Machine</h1>
+    <h1>Random Quote Machine by publiclyviewed</h1>
     <div id="quote-container">
-        <p id="quote">Click the button to get a quote!</p>
+        <p id="quote">Click the button for a memorable quote!</p>
         <wrapper id="quote-box">
             <div id="text"></div>
             <div id="author"></div>
-            <button id="new-quote"></button>
+            <button id="new-quote" onClick="generateQuote();">New Quote</button>
             <a id="tweet-quote" href="twitter.com/intent/tweet" class="button" target="_blank">Tweet quote</a>
+            <a id="post-facebook" href="#" class="button" target="_blank">Post to Facebook</a> </div>
         </wrapper>
     </div>
-    <button id="new-quote" onClick="generateQuote();">New Quote</button>
     
+    <script src="index.js"></script>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
-</html>
+
+
+
+
