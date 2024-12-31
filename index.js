@@ -37,6 +37,9 @@ document.addEventListener('DOMContentLoaded', (event) => { generateQuote(); });
    }, {
       quote: "Brandon's got a GT",
       author: "Jake"
+   }, {
+      quote: "Should've just thrown her overboard",
+      author: "Dennis Foster"
    }
 ]
 
