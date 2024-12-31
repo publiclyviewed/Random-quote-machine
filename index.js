@@ -40,6 +40,9 @@ document.addEventListener('DOMContentLoaded', (event) => { generateQuote(); });
    }, {
       quote: "Should've just thrown her overboard",
       author: "Dennis Foster"
+   }, {
+      quote: "Why don't we just round 'em all up and send 'em overseas?",
+      author: "Steve Goebel"
    }
 ]
 
